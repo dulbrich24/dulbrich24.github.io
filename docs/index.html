@@ -7,9 +7,9 @@
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
 <meta name="author" content="Gang He">
-<meta name="description" content="Dr.&nbsp;Gang He is an energy scholar, researcher, and teacher. He studies and teaches energy systems, energy and climate policy, and clean energy transition. Key words: Energy systems analysis, energy and climate policy, clean energy transition, decarbonization, and carbon neutrality">
+<meta name="description" content="Gang He is an energy scholar, researcher, and teacher. He studies and teaches energy systems, energy and climate policy, and clean energy transition.">
 
-<title>Letters – Dr.&nbsp;Dennis Ulbrich</title>
+<title>Dr.&nbsp;Dennis Ulbrich</title>
 <style>
 code{white-space: pre-wrap;}
 span.smallcaps{font-variant: small-caps;}
@@ -32,10 +32,11 @@ ul.task-list li input[type="checkbox"] {
 <script src="site_libs/quarto-search/fuse.min.js"></script>
 <script src="site_libs/quarto-search/quarto-search.js"></script>
 <meta name="quarto:offset" content="./">
+<script src="site_libs/quarto-listing/list.min.js"></script>
+<script src="site_libs/quarto-listing/quarto-listing.js"></script>
 <script src="site_libs/quarto-html/quarto.js"></script>
 <script src="site_libs/quarto-html/popper.min.js"></script>
 <script src="site_libs/quarto-html/tippy.umd.min.js"></script>
-<script src="site_libs/quarto-html/anchor.min.js"></script>
 <link href="site_libs/quarto-html/tippy.css" rel="stylesheet">
 <link href="site_libs/quarto-html/quarto-syntax-highlighting-549806ee2085284f45b00abea8c6df48.css" rel="stylesheet" id="quarto-text-highlighting-styles">
 <script src="site_libs/bootstrap/bootstrap.min.js"></script>
@@ -69,6 +70,35 @@ ul.task-list li input[type="checkbox"] {
     "search-label": "Search"
   }
 }</script>
+<script>
+
+  window.document.addEventListener("DOMContentLoaded", function (_event) {
+    const listingTargetEl = window.document.querySelector('#listing-recent-posts .list');
+    if (!listingTargetEl) {
+      // No listing discovered, do not attach.
+      return; 
+    }
+
+    const options = {
+      valueNames: ['listing-image','listing-date','listing-title','listing-subtitle',{ data: ['index'] },{ data: ['categories'] },{ data: ['listing-date-sort'] },{ data: ['listing-file-modified-sort'] }],
+      
+      searchColumns: [],
+    };
+
+    window['quarto-listings'] = window['quarto-listings'] || {};
+    window['quarto-listings']['listing-recent-posts'] = new List('listing-recent-posts', options);
+
+    if (window['quarto-listing-loaded']) {
+      window['quarto-listing-loaded']();
+    }
+  });
+
+  window.addEventListener('hashchange',() => {
+    if (window['quarto-listing-loaded']) {
+      window['quarto-listing-loaded']();
+    }
+  })
+  </script>
 
 
 <!-- 
@@ -109,15 +139,42 @@ https://badge.dimensions.ai/
 
 <script type="text/javascript" src="//cdn.plu.mx/widget-popup.js"></script>
 
+  <script src="https://cdnjs.cloudflare.com/polyfill/v3/polyfill.min.js?features=es6"></script>
+  <script src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-chtml-full.js" type="text/javascript"></script>
+
+<script type="text/javascript">
+const typesetMath = (el) => {
+  if (window.MathJax) {
+    // MathJax Typeset
+    window.MathJax.typeset([el]);
+  } else if (window.katex) {
+    // KaTeX Render
+    var mathElements = el.getElementsByClassName("math");
+    var macros = [];
+    for (var i = 0; i < mathElements.length; i++) {
+      var texText = mathElements[i].firstChild;
+      if (mathElements[i].tagName == "SPAN") {
+        window.katex.render(texText.data, mathElements[i], {
+          displayMode: mathElements[i].classList.contains('display'),
+          throwOnError: false,
+          macros: macros,
+          fleqn: false
+        });
+      }
+    }
+  }
+}
+window.Quarto = {
+  typesetMath
+};
+</script>
 
 <link rel="stylesheet" href="styles.css">
-<meta property="og:title" content="Letters – Dr.&nbsp;Dennis Ulbrich">
-<meta property="og:description" content="Dr.&nbsp;Gang He is an energy scholar, researcher, and teacher. He studies and teaches energy systems, energy and climate policy, and clean energy transition.">
-<meta property="og:image" content="https://dulbrich24.github.io/files//profile/UD.jpeg">
+<meta property="og:title" content="Dr.&nbsp;Dennis Ulbrich">
+<meta property="og:image" content="https://dulbrich24.github.io/files/profile/UD.jpeg">
 <meta property="og:site_name" content="Dr. Dennis Ulbrich">
-<meta name="twitter:title" content="Letters – Dr.&nbsp;Dennis Ulbrich">
-<meta name="twitter:description" content="Dr.&nbsp;Gang He is an energy scholar, researcher, and teacher. He studies and teaches energy systems, energy and climate policy, and clean energy transition.">
-<meta name="twitter:image" content="https://dulbrich24.github.io/files//profile/UD.jpeg">
+<meta name="twitter:title" content="Dr.&nbsp;Dennis Ulbrich">
+<meta name="twitter:image" content="https://dulbrich24.github.io/files/profile/UD.jpeg">
 <meta name="twitter:card" content="summary_large_image">
 </head>
 
@@ -206,48 +263,84 @@ https://badge.dimensions.ai/
     </nav>
 </header>
 <!-- content -->
-<div id="quarto-content" class="quarto-container page-columns page-rows-contents page-layout-article page-navbar">
+<div id="quarto-content" class="quarto-container page-columns page-rows-contents page-layout-full page-navbar">
 <!-- sidebar -->
 <!-- margin-sidebar -->
-    <div id="quarto-margin-sidebar" class="sidebar margin-sidebar zindex-bottom">
-        
-    </div>
+    
 <!-- main -->
-<main class="content" id="quarto-document-content">
+<main class="content column-page" id="quarto-document-content">
 
+
+
+
+<div class="quarto-about-trestles column-page">
+  <div class="about-entity">
+    <img src="files/profile/UD.jpeg" class="about-image
+  rounded " style="width: 70%;">
 <header id="title-block-header" class="quarto-title-block default">
 <div class="quarto-title">
-<h1 class="title">Letters</h1>
+<h1 class="title">Dr.&nbsp;Dennis Ulbrich</h1>
+</div>
+<div class="quarto-title-meta column-page">
+  </div>
+</header>
+    <div class="about-links">
+  <a href="mailto:dennis.ulbrich@hs-bremen.de" class="about-link" rel="" target="">
+    <i class="bi bi-envelope"></i>
+     <span class="about-link-text">Email</span>
+  </a>
+  <a href="tel:+49" class="about-link" rel="" target="">
+    <i class="bi bi-telephone"></i>
+     <span class="about-link-text">Phone</span>
+  </a>
+</div>
+  </div>
+  <div class="about-contents"><div id="hero-heading">
+<div class="callout callout-style-simple callout-note no-icon callout-titled">
+<div class="callout-header d-flex align-content-center" data-bs-toggle="collapse" data-bs-target=".callout-1-contents" aria-controls="callout-1" aria-expanded="false" aria-label="Toggle callout">
+<div class="callout-icon-container">
+<i class="callout-icon no-icon"></i>
+</div>
+<div class="callout-title-container flex-fill">
+Contact address
+</div>
+<div class="callout-btn-toggle d-inline-block border-0 py-1 ps-1 pe-0 float-end"><i class="callout-toggle"></i></div>
+</div>
+<div id="callout-1" class="callout-1-contents callout-collapse collapse">
+<div class="callout-body-container callout-body">
+<p>Hochschule Bremen<br> Fakultät 4 <br> Flughafenallee 10<br> 28199 Bremen</p>
+<p><a href="https://www.hs-bremen.de/raumfinder/">ZIMT, Office 236</a></p>
+<figure style="margin-top:25px" class="figure">
+<img src="./files/images/ZIMT-small.jpg" style="width:60%;height:60%" alt="my alt text" class="figure-img">
+<figcaption style="margin-top:5px">
+Hochschule Bremen, ZIMT (© Sven Stolzenwald)
+</figcaption>
+</figure>
+</div>
+</div>
+</div>
+<section id="about-me" class="level2">
+<h2 data-anchor-id="about-me">About me</h2>
+<p>Since February 2025, I am working as a postdoctoral researcher at <a href="https://www.hs-bremen.de/en/hsb/faculties/school-of-electrical-engineering-and-computer-science/#c1325">Faculty 4 (ZIMT)</a> of the <a href="https://www.hs-bremen.de/en/">Bremen University of Applied Sciences</a> within the research group of <a href="https://www.hs-bremen.de/person/pdraheim/">Prof.&nbsp;Patrick Draheim</a>.</p>
+<p>Beforehand, I was a postdoctoral researcher at the <a href="https://www.uni-muenster.de/AMM/en/institute.shtml">Institute for Analysis and Numerics</a> at the <a href="https://www.uni-muenster.de/en/">University of Münster</a>; I was supervised by <a href="https://www.uni-muenster.de/AMM/en/Pirner/index.shtml">Prof.&nbsp;Marlies Pirner</a>.</p>
+<p>I earned my PhD degree in Mathematics (<em>Dr.&nbsp;rer. nat.</em> in Mathematics) at the <a href="https://www.uni-bremen.de/en/">University of Bremen</a> under the supervision of <a href="https://www.math.uni-hamburg.de/en/forschung/bereiche/am/ang-dynamische-systeme/personen/rademacher-jens.html">Prof.&nbsp;Jens Rademacher</a> and <a href="https://www.uni-bremen.de/dynsys/members/prof-dr-marc-kesseboehmer">Prof.&nbsp;Marc Keßeböhmer</a>, cf.&nbsp;<a href="https://www.mathgenealogy.org/id.php?id=277103">MGP</a>.</p>
+</section>
+</div></div>
 </div>
 
 
 
-<div class="quarto-title-meta">
-
-    
-  
-    
-  </div>
-  
-
-
-</header>
-
-
-<p>I’m happpy to provide recommendation letters if you were <strong>in my class</strong> or <strong>collaborated with me directly</strong>. If not, I may not know you well enough to write a stong letter.</p>
-<p>When requesting a letter, please send bullet points addressing the following:</p>
-<ul>
-<li>What (class) project did you work on?</li>
-<li>What contributions did you make to the project?</li>
-<li>What challenges did you face during the project?</li>
-<li>How did you handle those challenges?</li>
-<li>Why are you interested in the opportunity or position?</li>
-</ul>
-<p>Please also include links to the position or opportunity and note the deadlines. Please reach out at least <strong>one month</strong> before the deadline. If you need letters for multiple applications, please send all submission links together if possible.</p>
 
 
 
-<a onclick="window.scrollTo(0, 0); return false;" role="button" id="quarto-back-to-top"><i class="bi bi-arrow-up"></i> Back to top</a></main> <!-- /main -->
+<div class="quarto-listing quarto-listing-container-grid" id="listing-recent-posts">
+<div class="list grid quarto-listing-cols-3">
+
+</div>
+<div class="listing-no-matching d-none">
+No matching items
+</div>
+</div><a onclick="window.scrollTo(0, 0); return false;" role="button" id="quarto-back-to-top"><i class="bi bi-arrow-up"></i> Back to top</a></main> <!-- /main -->
 <script id="quarto-html-after-body" type="application/javascript">
 window.document.addEventListener("DOMContentLoaded", function (event) {
   const toggleBodyColorMode = (bsSheetEl) => {
@@ -268,13 +361,6 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
     }
   }
   toggleBodyColorPrimary();  
-  const icon = "";
-  const anchorJS = new window.AnchorJS();
-  anchorJS.options = {
-    placement: 'right',
-    icon: icon
-  };
-  anchorJS.add('.anchored');
   const isCodeAnnotation = (el) => {
     for (const clz of el.classList) {
       if (clz.startsWith('code-annotation-')) {                     

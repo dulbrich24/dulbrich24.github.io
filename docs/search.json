@@ -1,0 +1,184 @@
+[
+  {
+    "objectID": "teaching.html",
+    "href": "teaching.html",
+    "title": "Teaching",
+    "section": "",
+    "text": "Hochschule Bremen\n\n\nBasic mathematical methods of engineering sciences, including some linear algebra and analysis; more information can be found here."
+  },
+  {
+    "objectID": "teaching.html#current",
+    "href": "teaching.html#current",
+    "title": "Teaching",
+    "section": "",
+    "text": "Hochschule Bremen\n\n\nBasic mathematical methods of engineering sciences, including some linear algebra and analysis; more information can be found here."
+  },
+  {
+    "objectID": "teaching.html#past",
+    "href": "teaching.html#past",
+    "title": "Teaching",
+    "section": "Past",
+    "text": "Past\n\nSpring semester 2022\n\n\n\n\n\nJacobs University Bremen (now Constructor University Bremen)\n\nFinite Mathematics\nIntroduction to Dynamical Systems"
+  },
+  {
+    "objectID": "quarto-academic-site-examples.html",
+    "href": "quarto-academic-site-examples.html",
+    "title": "Quarto Academic Website Examples and Tips",
+    "section": "",
+    "text": "Web\nGitHub\n\n\n\n\nhttps://quarto.org/\nhttps://github.com/quarto-dev/quarto-web\n\n\nhttps://www.andrewheiss.com/\nhttps://github.com/andrewheiss/ath-quarto\n\n\nhttps://www.jhelvy.com/\nhttps://github.com/jhelvy/jhelvy_quarto\n\n\nhttps://faculty.washington.edu/masiello/\nhttps://github.com/MasielloGroup/MasielloGroupWebsite\n\n\nhttps://affcom.ku.edu/\nhttps://github.com/jmgirard/affcomlab\n\n\nhttps://silviacanelon.com/\nhttps://github.com/spcanelon/silvia"
+  },
+  {
+    "objectID": "quarto-academic-site-examples.html#example-quarto-academic-websites-i-reference-regularly",
+    "href": "quarto-academic-site-examples.html#example-quarto-academic-websites-i-reference-regularly",
+    "title": "Quarto Academic Website Examples and Tips",
+    "section": "",
+    "text": "Web\nGitHub\n\n\n\n\nhttps://quarto.org/\nhttps://github.com/quarto-dev/quarto-web\n\n\nhttps://www.andrewheiss.com/\nhttps://github.com/andrewheiss/ath-quarto\n\n\nhttps://www.jhelvy.com/\nhttps://github.com/jhelvy/jhelvy_quarto\n\n\nhttps://faculty.washington.edu/masiello/\nhttps://github.com/MasielloGroup/MasielloGroupWebsite\n\n\nhttps://affcom.ku.edu/\nhttps://github.com/jmgirard/affcomlab\n\n\nhttps://silviacanelon.com/\nhttps://github.com/spcanelon/silvia"
+  },
+  {
+    "objectID": "quarto-academic-site-examples.html#templates-i-adapt-you-may-find-useful",
+    "href": "quarto-academic-site-examples.html#templates-i-adapt-you-may-find-useful",
+    "title": "Quarto Academic Website Examples and Tips",
+    "section": "Templates I adapt you may find useful",
+    "text": "Templates I adapt you may find useful\n\n\n\nType\nWeb\nGitHub\n\n\n\n\nPersonal\nhttps://drganghe.github.io/\nhttps://github.com/drganghe/drganghe.github.io\n\n\nLab/Group\nhttps://deeppolicylab.github.io/\nhttps://github.com/deeppolicylab/deeppolicylab.github.io\n\n\nClass\nhttps://drganghe.github.io/energy-climate-policy/\nhttps://github.com/drganghe/energy-climate-policy\n\n\nEvents\nhttps://drganghe.github.io/climate-guest-speakers/\nhttps://github.com/drganghe/climate-guest-speakers\n\n\nSlides\nhttps://drganghe.github.io/files/slides/solar-supply-chains-slides.html\nhttps://quarto.org/docs/presentations/revealjs/\n\n\nPoster\nhttps://drganghe.github.io/files/posters/nature-solar-supply-chains-poster.png\nhttps://github.com/brentthorne/posterdown"
+  },
+  {
+    "objectID": "quarto-academic-site-examples.html#useful-tips-for-building-an-academic-quarto-site",
+    "href": "quarto-academic-site-examples.html#useful-tips-for-building-an-academic-quarto-site",
+    "title": "Quarto Academic Website Examples and Tips",
+    "section": "Useful tips for building an academic Quarto site",
+    "text": "Useful tips for building an academic Quarto site\n\nUsing “Includes” for reusable content\nTo streamline updates across your site, use Quarto’s includes feature for reusable elements like syllabus statements, social sharing options, academic badges, and other reuseable materials. By doing this, you only need to update a single source file, and then rerender the site to reflect changes across all pages.\n{{include _statement.qmd}}\nPrefixing include file names with an underscore (“_“) ensures they won’t be rendered directly by Quarto.\nHere is an example course description, and reuse it in mainpage and syllabus.\n\n\nAcademic badges\nDisplay academic badges like the Dimension Citation badge and Altmetric badge.\n\nHere’s an example for embedding them:\n&lt;span class=\"__dimensions_badge_embed__\" data-doi=\"10.1038/s41586-022-05316-6\" data-style=\"large_rectangle\"&gt;&lt;/span&gt; &lt;div data-badge-popover=\"right\" data-badge-type=\"1\" data-doi=\"10.1038/s41586-022-05316-6\" data-hide-no-mentions=\"true\" class=\"altmetric-embed\"&gt;&lt;/div&gt;\nReplace the doi with your own.\nMake sure to include below scripts in the same page to enable the badges:\n&lt;script type='text/javascript' src='https://d1bxh8uas1mnw7.cloudfront.net/assets/embed.js'&gt;&lt;/script&gt;\n\n&lt;script async src=\"https://badge.dimensions.ai/badge.js\" charset=\"utf-8\"&gt;&lt;/script&gt;\nYou can also showcase your highly cited and hot papers using custom badges.\n \n![](https://drganghe.github.io/files/images/highly-cited-paper-badge.png \"ESI Highly Cited Paper\"){width=20 fig-alt=\"Highly cited paper\"} ![](https://drganghe.github.io/files/images/hot-paper-badge.png \"ESI Hot Paper\"){width=20 fig-alt=\"Hot paper\"}\nHere is an example, and the source code.\n\n\nSocial sharing\nFor easy setup of social sharing buttons, AddToAny is a simple solution.\nUsing includes files here will make it easier to manage updates, as any changes to social buttons need only be made once.\nHere is an example.\n\n\nThe art of listing\nListings are a powerful tool in Quarto, offering flexibility for creating visually appealing and organized pages. By adjusting listing options, you can control how content is presented.\nType: default, grid, table\nOptions: grid-columns, image-height, grid-item-align\nDisplay: fields and field-display-names\nBy mastering these options, you can easily create pages that fit your content needs while maintaining a clean, user-friendly design.\nHere is an example, and source code; another example, and source code.\n\n\nListing external items\nIf you need to list external resources with key metadata, you can use this format to create clear, linked listings.\n    - path: https://www.nature.com/articles/s41586-022-05316-6\n      image: /files/images/journal/nature.avif\n      title: \"Quantifying the cost savings of global solar photovoltaic supply chains\"\n      subtitle: \"*Nature*\"\n      description: \"Globalized supply chain has saved solar installers in the U.S., Germany, and China $67B 2008-2020, and solar prices will be 20-30% higher in 2030 if countries move to produce domestically.\"\n      date: \"2022-10-26\"\nIf you have many items to list, it’s efficient to store them in a YAML(.yml) file. You can then reference this YAML file in Quarto.\nHere is an example, and source code."
+  },
+  {
+    "objectID": "now.html",
+    "href": "now.html",
+    "title": "Now",
+    "section": "",
+    "text": "A few things keep me busy these days:"
+  },
+  {
+    "objectID": "now.html#kids",
+    "href": "now.html#kids",
+    "title": "Now",
+    "section": "Kids",
+    "text": "Kids\n\nRaising 2 young kids and spending 12 hours a day with them when their school is closed"
+  },
+  {
+    "objectID": "now.html#research",
+    "href": "now.html#research",
+    "title": "Now",
+    "section": "Research",
+    "text": "Research\n\n\n\n\n\n\nBig picture question\n\n\n\nHow can we achieve carbon neutrality by mid-century to address climate change?\nHow to make the clean energy transition more:\n\nSustainable (energy and environment)\nResilient (energy and climate)\nEquitable (energy and justice)\n\n\n\n\nWorking with Baruch colleagues on the SSA project Exploring Energy Burden Among the Older Adults and People with Disabilities in New York City Public Housing Communities\n\nWorking with California China Climate Institute to study clean energy supply chains and power system resources adequency\n\nWorking on the climate, air pollution, and human health effect of imported solar PV supported by the ClimateWorks Foundation\n\nCollaborating with LBL on power system decarbonization\n\n\nWelcome collaborations on\n\nClean energy global supply chain\nPower system decarbonization modeling\nClimate impact on energy systems\nJust energy transition\nEnergy-water-carbon nexus\n\nOther interdisciplinary aspects of carbon neutrality"
+  },
+  {
+    "objectID": "now.html#teaching",
+    "href": "now.html#teaching",
+    "title": "Now",
+    "section": "Teaching",
+    "text": "Teaching\nFall Semester:\n\nPAF 9199 Energy and Climate Policy\n\nSpring Semester:\n\nPAF 4199 Energy, Climate, and Society\nPAF 9174 Program Evaluation\n\nI’m seeking guest speakers who are passionate about sharing their experiences and inspiring next generation of climate leaders:\n\nClimate Guest Speakers"
+  },
+  {
+    "objectID": "notes/new-york-state-climate-policy.html",
+    "href": "notes/new-york-state-climate-policy.html",
+    "title": "New York State Climate Policy Goals Clarified",
+    "section": "",
+    "text": "New York State is recognized as a climate leader, yet navigating its policies can be challenging without a deep understanding of the policymaking landscape. Here, I’ve aimed to link key policy goals with relevant legislation, agencies, and provide direct access to the original legislative text. I hope you find these resources helpful.\nNotes: ECL: Environmental Conservation Law; Emission reductin baseline: 1990 level; Renewable energy: solar thermal, PV, land and offshore wind, hydroelctric, geothermal electric, geothermal ground source heat, tidal energy, wave energy, ocean thermal, and fuel cells which do not utilize a fossil fuel resource in the process1; ZEV(zero emission vehicles): Battery Electric Vehicles, Fuel Cell Vehicles, Plug-in Hybrid Electric Vehicles (PHEV)2.\nUpdates: Distributed PV: On October 17, 2024, Governor Kathy Hochul announced that 6 gigawatts (GW) of distributed solar have been installed across New York, a year ahead of schedule3. Storage: On June 20, 2024, the New York Public Service Commission approved the Order Establishing Updated Energy Storage Goal and Deployment Policy which expands the State’s goal to 6GW of energy storage to be installed by 20304."
+  },
+  {
+    "objectID": "notes/new-york-state-climate-policy.html#new-york-state-climate-leadership-and-community-protection-act",
+    "href": "notes/new-york-state-climate-policy.html#new-york-state-climate-leadership-and-community-protection-act",
+    "title": "New York State Climate Policy Goals Clarified",
+    "section": "New York State Climate Leadership and Community Protection Act",
+    "text": "New York State Climate Leadership and Community Protection Act\n\nGHG emissions goals\n\n2030: Reduce GHG by 40% below 1990 levels\n\n2050: Reduce GHG by 85% below 1990 levels\n\n\n§ 75-0107. Statewide greenhouse gas emissions limits.\n1. No later than one year after the effective date of this article, the department shall, pursuant to rules and regulations promulgated after at least one public hearing, establish a statewide greenhouse gas emissions limit as a percentage of 1990 emissions, as estimated pursuant to section 75-0105 of this article, as follows:\na. 2030: 60% of 1990 emissions.\nb. 2050: 15% of 1990 emissions.\n2. Greenhouse gas emission limits shall be measured in units of carbon dioxide equivalents and identified for each individual type of green-house gas.\n\n\n\nPower sector and renewable goals\n\n2030: Generate 70% of electricity from renewable energy sources\n\n2040: Achieve 100% zero-emission electricity\n\n\n§ 66-p. Establishment of a renewable energy program.\n1. As used in this section:\n(a) “jurisdictional load serving entity” means any entity subject to the jurisdiction of the commission that secures energy to serve the electrical energy requirements of end-use customers in New York state;\n(b) “renewable energy systems” means systems that generate electricity or thermal energy through use of the following technologies: solar thermal, photovoltaics, on land and offshore wind, hydroelectric, geothermal electric, geothermal ground source heat, tidal energy, wave energy, ocean thermal, and fuel cells which do not utilize a fossil fuel resource in the process of generating electricity.\n2. No later than June thirtieth, two thousand twenty-one, the commission shall establish a program to require that: (a) a minimum of seventy percent of the state wide electric generation secured by jurisdictional load serving entities to meet the electrical energy requirements of all end-use customers in New York state in two thousand thirty shall be generated by renewable energy systems; and (b) that by the year two thousand forty (collectively, the “targets”) the statewide electrical demand system will be zero emissions.\n\n\nTechnological specific goals:\n\n2025: Install 6 GW solar PV\n\n2030: Install 3 GW energy storage\n\n2035: Install 9 GW of offshore wind\n\n\n\n\nNo later than July first, two thousand twenty-four, the commission shall establish programs to require the procurement by the state’s load serving entities of at least nine gigawatts of offshore wind electricity generation by two thousand thirty-five and six gigawatts of photovoltaic solar generation by two thousand twenty-five, and to support three giga-watts of statewide energy storage capacity by two thousand thirty.\n\n\n\n\nWhat also in the bill?\n\nEstablish the New York state climate action council (“council”)\nAt least 35% of the benefits directed to disadvantaged communities with a goal to achieve 40%\n\n\n75-0117. Investment of funds.\nState agencies, authorities and entities, in consultation with the environmental justice working group and the climate action council, shall, to the extent practicable, invest or direct available and relevant programmatic resources in a manner designed to achieve a goal for disadvantaged communities to receive forty percent of overall benefits of spending on clean energy and energy efficiency programs, projects or investments in the areas of housing, workforce development, pollution reduction, low income energy assistance, energy, transportation and economic development, provided however, that disadvantaged communities shall receive no less than thirty-five percent of the overall benefits of spending on clean energy and energy efficiency programs, projects or investments and provided further that this section shall not alter funds already contracted or committed as of the effective date of this section.\n\nSource Document: Senate Bill S6599"
+  },
+  {
+    "objectID": "notes/new-york-state-climate-policy.html#amendaments-to-envirnmental-coservation-law",
+    "href": "notes/new-york-state-climate-policy.html#amendaments-to-envirnmental-coservation-law",
+    "title": "New York State Climate Policy Goals Clarified",
+    "section": "Amendaments to Envirnmental Coservation Law",
+    "text": "Amendaments to Envirnmental Coservation Law\n\nEV sales goals\n\n2035: 100% new sale of passager cars and trucks shall be zero emission\n2045: 100% new sale of medium-duty and heavy-duty vehicles shall be zero emission\n\n\nSection 1. The environmental conservation law is amended by adding a new section 19-0306-b to read as follows:\n§ 19-0306-b. Zero-emissions cars and trucks.\n1. It shall be a goal of the state that one hundred percent of new passenger cars and trucks offered for sale or lease, or sold, or leased, for registration in the state shall be zero-emissions by two thousand thirty-five. It shall be a further goal of the state that one hundred percent of medium-duty and heavy-duty vehicles offered for sale or lease, or sold, or leased, for registration in the state be zero-emissions by two thousand forty-five for all operations where feasible. It shall be further a goal of the state to transition to one hundred percent zero-emissions off-road vehicles and equipment by two thousand thirty-five where feasible.\n\nSource Document: Senate Bill S2758\nNote: This is an ongoing policy issue, more updates are expected."
+  },
+  {
+    "objectID": "notes/new-york-state-climate-policy.html#footnotes",
+    "href": "notes/new-york-state-climate-policy.html#footnotes",
+    "title": "New York State Climate Policy Goals Clarified",
+    "section": "Footnotes",
+    "text": "Footnotes\n\n\nhttps://www.nysenate.gov/legislation/bills/2019/S6599↩︎\nhttps://dec.ny.gov/environmental-protection/air-quality/controlling-motor-vehicle-pollution/low-and-zero-emission-vehicles↩︎\nhttps://www.nyserda.ny.gov/About/Newsroom/2024-Announcements/2024-10-17-Governor-Hochul-Announces-New-York-State-Has-Achieved-Major-Solar-Milestone↩︎\nhttps://www.nyserda.ny.gov/All-Programs/Energy-Storage-Program↩︎"
+  },
+  {
+    "objectID": "letters.html",
+    "href": "letters.html",
+    "title": "Letters",
+    "section": "",
+    "text": "I’m happpy to provide recommendation letters if you were in my class or collaborated with me directly. If not, I may not know you well enough to write a stong letter.\nWhen requesting a letter, please send bullet points addressing the following:\n\nWhat (class) project did you work on?\nWhat contributions did you make to the project?\nWhat challenges did you face during the project?\nHow did you handle those challenges?\nWhy are you interested in the opportunity or position?\n\nPlease also include links to the position or opportunity and note the deadlines. Please reach out at least one month before the deadline. If you need letters for multiple applications, please send all submission links together if possible.\n\n\n\n Back to top"
+  },
+  {
+    "objectID": "index.html",
+    "href": "index.html",
+    "title": "Dr. Dennis Ulbrich",
+    "section": "",
+    "text": "Email\n  \n  \n    \n     Phone\n  \n\n  \n  \n\n\n\n\n\n\nContact address\n\n\n\n\n\nHochschule Bremen Fakultät 4  Flughafenallee 10 28199 Bremen\nZIMT, Office 236\n\n\n\nHochschule Bremen, ZIMT (© Sven Stolzenwald)\n\n\n\n\n\n\n\nSince February 2025, I am working as a postdoctoral researcher at Faculty 4 (ZIMT) of the Bremen University of Applied Sciences within the research group of Prof. Patrick Draheim.\nBeforehand, I was a postdoctoral researcher at the Institute for Analysis and Numerics at the University of Münster; I was supervised by Prof. Marlies Pirner.\nI earned my PhD degree in Mathematics (Dr. rer. nat. in Mathematics) at the University of Bremen under the supervision of Prof. Jens Rademacher and Prof. Marc Keßeböhmer, cf. MGP."
+  },
+  {
+    "objectID": "index.html#about-me",
+    "href": "index.html#about-me",
+    "title": "Dr. Dennis Ulbrich",
+    "section": "",
+    "text": "Since February 2025, I am working as a postdoctoral researcher at Faculty 4 (ZIMT) of the Bremen University of Applied Sciences within the research group of Prof. Patrick Draheim.\nBeforehand, I was a postdoctoral researcher at the Institute for Analysis and Numerics at the University of Münster; I was supervised by Prof. Marlies Pirner.\nI earned my PhD degree in Mathematics (Dr. rer. nat. in Mathematics) at the University of Bremen under the supervision of Prof. Jens Rademacher and Prof. Marc Keßeböhmer, cf. MGP."
+  },
+  {
+    "objectID": "notes/cuny-baruch-visiting-scholar-paperwork-guide.html",
+    "href": "notes/cuny-baruch-visiting-scholar-paperwork-guide.html",
+    "title": "CUNY Baruch College Visiting Scholar Paperwork Guide",
+    "section": "",
+    "text": "flowchart LR\n  A[Conditional Invitation] --&gt; \n  B(Appointment Letter) --&gt;\n  C{{DS-2019}} --&gt;\n  D{{Visa Application}}  --&gt;\n  E(Visiting Baruch)\n\n\n\n\n\n\n\n\nTo begin, you need to secure a conditional invitation letter from a faculty member who will support your scholarship application. The following documents are usually helpful:\n\nCV\nResearch Plan\nEnglish Proficiency Certificate\n\nYour potential host may schedule an interview to discuss your proposal and assess the possibilities.\n\n\n\nOnce you receive the fellowship or scholarship certificate, forward it to your host faculty member. The certificate is useful for the department or school to issue an official invitation letter. You may ignore the first step if you were hired or support by your host faculty.\n\nThe official letter, similar to the conditional invitation, will be signed by the Department Chair or Dean.\nThis step formalizes your appointment and enables the next stages of paperwork.\n\n\n\n\nThe DS-2019 form involves several internal approval processes before the designated office can issue it. These include:\n\nApprovals from the Department Chair, Dean, and Provost\n\nExport Control Clearance\n\nOverview of the Process from the Baruch College Export Control Clearance for J-1 Research Scholar\n\nTo comply with the “Guidance on Onboarding J-1 Researchers and Scholars Exchange Visitors” memorandum dated July 26, 2021 from Robert T. Maruca, CUNY Associate University Provost for Planning, and Tamera Schneider, CUNY Associate Vice Chancellor & University Provost for Research, the Weissman Center for International Business has devised the following procedure for obtaining export control clearance for all prospective J-1 Research Scholars.*\nThe process involves several steps.\nThe process begins whenever a Baruch department or other College office (“Department”) receives an inquiry from someone requesting to be hosted as a prospective international J-1 Research Scholar (“Scholar”). If the Department decides it wishes to host this Scholar, these steps must be taken:\nPhase I: Departmental Preparation\n\nThe Department sends two forms to the Scholar:\n\n\n\nApplication for Prospective International J-1 Scholar\nCUNY J-1 Export-Control Questionnaire\n\n\nThe Scholar returns the completed and signed forms along with certified scanned copies of the required documentation, plus a current CV/Resume, to the Department.\nThe Department completes and signs these two forms:\n\n\n\nBaruch College Application to Host International J-1 Scholar\n\nCUNY Foreign Influence due Diligence Form for J1-Visiting Scholar\n\n\nThe Department submits the following materials (completed and with all required signatures) to the SEVIS Responsible Officer (RO) for this J-1 program (currently Dr. Richard Mitten):\n\n\nApplication for Prospective International J-1 Scholar and accompanying documentation (completed by Scholar)\n\nCUNY J-1 Export-Control Questionnaire (completed by Scholar)\n\nCV/Resume of the Scholar (completed by Scholar)\n\nBaruch College Application to Host International J-1 Scholar with required signatures (completed by Department)\n\nCUNY Foreign Influence due Diligence Form for J1-Visiting Scholar (completed by Department)\nAn original official letter of invitation (completed by Department)\n\nPhase II: Preliminary Campus Review\n\nThe RO reviews documents and submits them to the Baruch College Provost for preliminary campus review.\nAfter consulting with the “appropriate stakeholders” (per CUNY regulations), the Provost returns the entire dossier to the SEVIS RO, recording the decision with a signature and date on page 2 of this form (Provisional Approval-Provost).\n\nPhase III: CUNY Screening\n\nIf the Provost approves the request to host the Scholar, the RO forwards the dossier to the CUNY Office of International Student and Scholar Services (“CUNY ISSS”) for “Visual Compliance Screening” (per CUNY regulations).\nAfter completing its screening, the CUNY ISSS returns the dossier to the RO with its findings.\nThe RO forwards the dossier to the Provost for final campus review.\n\nPhase IV: Final Campus Review\n\nThe Provost approves, or withholds final approval to the request to host the Scholar, and conveys this decision, along with the dossier of documents, to the RO, recording the decision with a signature and date on Export Control Clearance Form for Prospective J-1 Research Scholar.\nIf the Provost approves the request, the RO notifies the Department, issues the DS-2019 for the Scholar, and sends it and additional documentation needed to apply for a J-1 visa to the Scholar, with a copy to the Department.\n\n*Please note: The process for described below applies to any prospective J-1 Research Scholar only (Short-Term Scholars are processed by the International Student Service Center).\n\nAdditional documents:\nFinancial ability to cover the living expenses for J-1 exchange visitors & J-2 dependents:\n\nJ-1 exchange visitor $32,000/year; $2,700/month (research scholar, professor, short-term scholar & student)\n\nJ-2 spouse $7,200/year; $600/month\n\nJ-2 child (under 21) $4,800/year per child; $400/month per child\n\nIf the scholarship amount is less than the listed requirement, you may need to provide a bank certificate of personal savings to cover the difference.\nMinimum insurance coverage must provide:\n\nMedical benefits of at least $100,000 per accident or illness;\n\nRepatriation of remains in the amount of $25,000;\n\nExpenses associated with the medical evacuation of exchange visitors to his or her home country in the amount of $50,000; and\n\nDeductibles not to exceed $500 per accident or illness.\n\n\n\n\nCheck the latest information from the U.S. Embassy website to understand the requirements and materials needed for your visa application. Make sure to complete this step promptly after receiving your DS-2019 form.\n\n\n\nOnce all paperwork is completed, you can prepare for your arrival at Baruch College in New York City! New York City is Your Classroom and Office!\n\n\n\n\nTimeline\n\nThe entire process may take several months, particularly if additional documentation is requested. Begin early and allow flexibility in your start date to accommodate any delays.\n\nProactive Communication\n\nKeep in close contact with your host faculty and administrative offices to ensure you stay updated on requirements and approvals.\n\nUnofficial Guide\n\nThis is an information page for your reference only. You should always follow the official guide to prepare your documents."
+  },
+  {
+    "objectID": "notes/cuny-baruch-visiting-scholar-paperwork-guide.html#paperwork-flow",
+    "href": "notes/cuny-baruch-visiting-scholar-paperwork-guide.html#paperwork-flow",
+    "title": "CUNY Baruch College Visiting Scholar Paperwork Guide",
+    "section": "",
+    "text": "flowchart LR\n  A[Conditional Invitation] --&gt; \n  B(Appointment Letter) --&gt;\n  C{{DS-2019}} --&gt;\n  D{{Visa Application}}  --&gt;\n  E(Visiting Baruch)\n\n\n\n\n\n\n\n\nTo begin, you need to secure a conditional invitation letter from a faculty member who will support your scholarship application. The following documents are usually helpful:\n\nCV\nResearch Plan\nEnglish Proficiency Certificate\n\nYour potential host may schedule an interview to discuss your proposal and assess the possibilities.\n\n\n\nOnce you receive the fellowship or scholarship certificate, forward it to your host faculty member. The certificate is useful for the department or school to issue an official invitation letter. You may ignore the first step if you were hired or support by your host faculty.\n\nThe official letter, similar to the conditional invitation, will be signed by the Department Chair or Dean.\nThis step formalizes your appointment and enables the next stages of paperwork.\n\n\n\n\nThe DS-2019 form involves several internal approval processes before the designated office can issue it. These include:\n\nApprovals from the Department Chair, Dean, and Provost\n\nExport Control Clearance\n\nOverview of the Process from the Baruch College Export Control Clearance for J-1 Research Scholar\n\nTo comply with the “Guidance on Onboarding J-1 Researchers and Scholars Exchange Visitors” memorandum dated July 26, 2021 from Robert T. Maruca, CUNY Associate University Provost for Planning, and Tamera Schneider, CUNY Associate Vice Chancellor & University Provost for Research, the Weissman Center for International Business has devised the following procedure for obtaining export control clearance for all prospective J-1 Research Scholars.*\nThe process involves several steps.\nThe process begins whenever a Baruch department or other College office (“Department”) receives an inquiry from someone requesting to be hosted as a prospective international J-1 Research Scholar (“Scholar”). If the Department decides it wishes to host this Scholar, these steps must be taken:\nPhase I: Departmental Preparation\n\nThe Department sends two forms to the Scholar:\n\n\n\nApplication for Prospective International J-1 Scholar\nCUNY J-1 Export-Control Questionnaire\n\n\nThe Scholar returns the completed and signed forms along with certified scanned copies of the required documentation, plus a current CV/Resume, to the Department.\nThe Department completes and signs these two forms:\n\n\n\nBaruch College Application to Host International J-1 Scholar\n\nCUNY Foreign Influence due Diligence Form for J1-Visiting Scholar\n\n\nThe Department submits the following materials (completed and with all required signatures) to the SEVIS Responsible Officer (RO) for this J-1 program (currently Dr. Richard Mitten):\n\n\nApplication for Prospective International J-1 Scholar and accompanying documentation (completed by Scholar)\n\nCUNY J-1 Export-Control Questionnaire (completed by Scholar)\n\nCV/Resume of the Scholar (completed by Scholar)\n\nBaruch College Application to Host International J-1 Scholar with required signatures (completed by Department)\n\nCUNY Foreign Influence due Diligence Form for J1-Visiting Scholar (completed by Department)\nAn original official letter of invitation (completed by Department)\n\nPhase II: Preliminary Campus Review\n\nThe RO reviews documents and submits them to the Baruch College Provost for preliminary campus review.\nAfter consulting with the “appropriate stakeholders” (per CUNY regulations), the Provost returns the entire dossier to the SEVIS RO, recording the decision with a signature and date on page 2 of this form (Provisional Approval-Provost).\n\nPhase III: CUNY Screening\n\nIf the Provost approves the request to host the Scholar, the RO forwards the dossier to the CUNY Office of International Student and Scholar Services (“CUNY ISSS”) for “Visual Compliance Screening” (per CUNY regulations).\nAfter completing its screening, the CUNY ISSS returns the dossier to the RO with its findings.\nThe RO forwards the dossier to the Provost for final campus review.\n\nPhase IV: Final Campus Review\n\nThe Provost approves, or withholds final approval to the request to host the Scholar, and conveys this decision, along with the dossier of documents, to the RO, recording the decision with a signature and date on Export Control Clearance Form for Prospective J-1 Research Scholar.\nIf the Provost approves the request, the RO notifies the Department, issues the DS-2019 for the Scholar, and sends it and additional documentation needed to apply for a J-1 visa to the Scholar, with a copy to the Department.\n\n*Please note: The process for described below applies to any prospective J-1 Research Scholar only (Short-Term Scholars are processed by the International Student Service Center).\n\nAdditional documents:\nFinancial ability to cover the living expenses for J-1 exchange visitors & J-2 dependents:\n\nJ-1 exchange visitor $32,000/year; $2,700/month (research scholar, professor, short-term scholar & student)\n\nJ-2 spouse $7,200/year; $600/month\n\nJ-2 child (under 21) $4,800/year per child; $400/month per child\n\nIf the scholarship amount is less than the listed requirement, you may need to provide a bank certificate of personal savings to cover the difference.\nMinimum insurance coverage must provide:\n\nMedical benefits of at least $100,000 per accident or illness;\n\nRepatriation of remains in the amount of $25,000;\n\nExpenses associated with the medical evacuation of exchange visitors to his or her home country in the amount of $50,000; and\n\nDeductibles not to exceed $500 per accident or illness.\n\n\n\n\nCheck the latest information from the U.S. Embassy website to understand the requirements and materials needed for your visa application. Make sure to complete this step promptly after receiving your DS-2019 form.\n\n\n\nOnce all paperwork is completed, you can prepare for your arrival at Baruch College in New York City! New York City is Your Classroom and Office!\n\n\n\n\nTimeline\n\nThe entire process may take several months, particularly if additional documentation is requested. Begin early and allow flexibility in your start date to accommodate any delays.\n\nProactive Communication\n\nKeep in close contact with your host faculty and administrative offices to ensure you stay updated on requirements and approvals.\n\nUnofficial Guide\n\nThis is an information page for your reference only. You should always follow the official guide to prepare your documents."
+  },
+  {
+    "objectID": "notes/cuny-baruch-visiting-scholar-paperwork-guide.html#links",
+    "href": "notes/cuny-baruch-visiting-scholar-paperwork-guide.html#links",
+    "title": "CUNY Baruch College Visiting Scholar Paperwork Guide",
+    "section": "Links",
+    "text": "Links\n\nBaruch Faculty Profiles\nStudy Abroad Office\nCUNY International Student & Scholar Services (ISSS)\nCUNY Export Control\n\nCreated: Januaray 3, 2025"
+  },
+  {
+    "objectID": "notes.html",
+    "href": "notes.html",
+    "title": "Notes",
+    "section": "",
+    "text": "Order By\n       Default\n         \n          Date - Oldest\n        \n         \n          Date - Newest\n        \n         \n          Title\n        \n     \n  \n    \n      \n      \n    \n\n\n\n\n\nTitle\n\n\nDate\n\n\n\n\n\n\nCUNY Baruch College Visiting Scholar Paperwork Guide\n\n\nJan 3, 2025\n\n\n\n\nNew York State Climate Policy Goals Clarified\n\n\nNov 1, 2024\n\n\n\n\nQuarto Academic Website Examples and Tips\n\n\nOct 15, 2024\n\n\n\n\n\nNo matching items\n\n\n\n\n\n        \n\n\n\n\n\n\n Back to top"
+  },
+  {
+    "objectID": "posts.html",
+    "href": "posts.html",
+    "title": "What’s New & Updated",
+    "section": "",
+    "text": "No matching items\n\n Back to top"
+  },
+  {
+    "objectID": "research_interests_publications.html",
+    "href": "research_interests_publications.html",
+    "title": "Research",
+    "section": "",
+    "text": "Ordinary and partial differential equations and their dynamics\nDynamical Systems and Ergodic Theory\nKinetic Theory and Entropy methods\nBoltzmann equation and its BGK-type approximations\nLong-time behavior of solutions (Hypocoercivity)\nModels of chemical reactions\nPhysical applications"
+  },
+  {
+    "objectID": "research_interests_publications.html#research-interests",
+    "href": "research_interests_publications.html#research-interests",
+    "title": "Research",
+    "section": "",
+    "text": "Ordinary and partial differential equations and their dynamics\nDynamical Systems and Ergodic Theory\nKinetic Theory and Entropy methods\nBoltzmann equation and its BGK-type approximations\nLong-time behavior of solutions (Hypocoercivity)\nModels of chemical reactions\nPhysical applications"
+  },
+  {
+    "objectID": "research_interests_publications.html#publications",
+    "href": "research_interests_publications.html#publications",
+    "title": "Research",
+    "section": "Publications",
+    "text": "Publications\n\nIn Progress\n\n\nRefereed journal articles\n\n\nTheses"
+  }
+]
