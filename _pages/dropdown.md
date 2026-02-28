@@ -1,14 +1,14 @@
 ---
 layout: page
-title: research
+title: Research
 nav: true
 nav_order: 1
 dropdown: true
 children:
-  - title: research interests
+  - title: Research interests
     permalink: /interests/
-  - title: publications
+  - title: Publications
     permalink: /publications/
-  - title: projects participation
+  - title: Projects participation
     permalink: /projects/
 ---
