@@ -14,21 +14,14 @@ ninja.data = [{
               description: "",
               section: "Dropdown",
               handler: () => {
-                window.location.href = "/books/";
+                window.location.href = "/interests/";
               },
             },{id: "dropdown-publications",
               title: "publications",
               description: "",
               section: "Dropdown",
               handler: () => {
-                window.location.href = "";
-              },
-            },{id: "dropdown-blog",
-              title: "blog",
-              description: "",
-              section: "Dropdown",
-              handler: () => {
-                window.location.href = "/blog/";
+                window.location.href = "/publ/";
               },
             },{id: "dropdown-projects-participation",
               title: "projects participation",
