@@ -474,6 +474,11 @@ ninja.data = [{
           description: "another project with an image 🎉",
           section: "Projects",handler: () => {
               window.location.href = "/projects/9_project/";
+            },},{id: "teachings-finite-mathematics",
+          title: 'Finite Mathematics',
+          description: "Jacobs University Bremen",
+          section: "Teachings",handler: () => {
+              window.location.href = "/teachings/finitemath/";
             },},{id: "teachings-mathematik-1",
           title: 'Mathematik 1',
           description: "Hochschule Bremen",
