@@ -5,4 +5,4 @@ inline: true
 related_posts: false
 ---
 
-Currently, I am loooking for a full-time position in mathematical research or teaching (pure or applied) at a university.
+I am loooking for a position in mathematical research or teaching at a university.
