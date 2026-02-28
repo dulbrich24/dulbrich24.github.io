@@ -440,10 +440,7 @@ ninja.data = [{
           description: "",
           section: "Books",handler: () => {
               window.location.href = "/books/the_godfather/";
-            },},{id: "news-a-simple-inline-announcement-with-markdown-emoji-sparkles-smile",
-          title: 'A simple inline announcement with Markdown emoji! :sparkles: :smile:',
-          description: "",
-          section: "News",},{id: "news-loooking-for-a-full-time-position-in-mathematical-research-or-teaching-pure-or-applied-at-a-university",
+            },},{id: "news-loooking-for-a-full-time-position-in-mathematical-research-or-teaching-pure-or-applied-at-a-university",
           title: 'Loooking for a full-time position in mathematical research or teaching (pure or applied)...',
           description: "",
           section: "News",},{id: "projects-project-1",
