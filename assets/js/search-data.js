@@ -513,18 +513,18 @@ ninja.data = [{
           window.open("mailto:%75%6C%62%72%69%63%68.%64%65%6E%6E%69%73@%69%63%6C%6F%75%64.%63%6F%6D", "_blank");
         },
       },{
-        id: 'social-rss',
-        title: 'RSS Feed',
-        section: 'Socials',
-        handler: () => {
-          window.open("/feed.xml", "_blank");
-        },
-      },{
         id: 'social-arxiv',
         title: 'arXiv',
         section: 'Socials',
         handler: () => {
           window.open("https://arxiv.org/a/Ulbrich,+D.html", "_blank");
+        },
+      },{
+        id: 'social-orcid',
+        title: 'ORCID',
+        section: 'Socials',
+        handler: () => {
+          window.open("https://orcid.org/0000-0001-5541-011X", "_blank");
         },
       },{
         id: 'social-scholar',
