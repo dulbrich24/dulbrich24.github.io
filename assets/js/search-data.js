@@ -517,7 +517,7 @@ ninja.data = [{
         title: 'arXiv',
         section: 'Socials',
         handler: () => {
-          window.open("https://arxiv.org/a/Ulbrich,+D.html", "_blank");
+          window.open("https://arxiv.org/a/https://arxiv.org/search/math?searchtype=author&query=Ulbrich%2C+D.html", "_blank");
         },
       },{
         id: 'social-orcid',
