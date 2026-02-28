@@ -478,7 +478,7 @@ ninja.data = [{
           title: 'Mathematik 1',
           description: "Hochschule Bremen",
           section: "Teachings",handler: () => {
-              window.location.href = "/teachings/introduction-to-machine-learning/";
+              window.location.href = "/teachings/math1/";
             },},{
         id: 'social-cv',
         title: 'CV',
