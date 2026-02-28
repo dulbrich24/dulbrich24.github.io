@@ -8,7 +8,7 @@ children:
   - title: research interests
     permalink: /interests/
   - title: publications
-    permalink: /publ/
+    permalink: /publications/
   - title: projects participation
     permalink: /projects/
 ---
