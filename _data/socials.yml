@@ -3,7 +3,7 @@
 # for more information, please refer to the documentation of jekyll-socials plugin: https://github.com/george-gca/jekyll-socials
 cv_pdf: /assets/pdf/CV_UlbrichDennis.pdf # path to your CV PDF file
 email: ulbrich.dennis@icloud.com   # your email address
-orcid_userid: 0000-0001-5541-011X # Inspire HEP author ID
+# orcid_userid: 0000-0001-5541-011X # Inspire HEP author ID
 rss_icon: false # comment this line to hide the RSS icon
 scholar_userid: b1u5plUAAAAJ # your Google Scholar ID
 # wechat_qr: # filename of your wechat qr-code saved as an image (e.g., wechat-qr.png if saved to assets/img/wechat-qr.png)
