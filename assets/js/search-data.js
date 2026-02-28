@@ -474,6 +474,11 @@ ninja.data = [{
           description: "another project with an image 🎉",
           section: "Projects",handler: () => {
               window.location.href = "/projects/9_project/";
+            },},{id: "teachings-introduction-to-dynamical-systems",
+          title: 'Introduction to Dynamical Systems',
+          description: "Jacobs University Bremen",
+          section: "Teachings",handler: () => {
+              window.location.href = "/teachings/dynsys/";
             },},{id: "teachings-finite-mathematics",
           title: 'Finite Mathematics',
           description: "Jacobs University Bremen",
@@ -485,13 +490,6 @@ ninja.data = [{
           section: "Teachings",handler: () => {
               window.location.href = "/teachings/math1/";
             },},{
-        id: 'social-cv',
-        title: 'CV',
-        section: 'Socials',
-        handler: () => {
-          window.open("/assets/pdf/CV_UlbrichDennis.pdf", "_blank");
-        },
-      },{
         id: 'social-email',
         title: 'email',
         section: 'Socials',
