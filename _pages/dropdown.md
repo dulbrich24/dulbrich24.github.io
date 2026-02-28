@@ -6,10 +6,9 @@ nav_order: 1
 dropdown: true
 children:
   - title: research interests
-    permalink: /books/
+    permalink: /interests/
   - title: publications
-  - title: blog
-    permalink: /blog/
+    permalink: /publ/
   - title: projects participation
     permalink: /projects/
 ---
