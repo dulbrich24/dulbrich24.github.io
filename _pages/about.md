@@ -2,7 +2,7 @@
 layout: about
 title: about
 permalink: /
-subtitle: Postdoctoral researcher | Mathematics
+subtitle: Mathematics
 
 profile:
   align: right
