@@ -21,7 +21,7 @@ ninja.data = [{
               description: "",
               section: "Dropdown",
               handler: () => {
-                window.location.href = "/publ/";
+                window.location.href = "/publications/";
               },
             },{id: "dropdown-projects-participation",
               title: "projects participation",
