@@ -24,6 +24,6 @@ nav_order: 3
 {% bibliography --file ongoing %}
 
 
-<h6g>Theses</h6>
+<h6>Theses</h6>
 {% bibliography --file theses %}
 </div>
