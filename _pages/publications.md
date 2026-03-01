@@ -17,9 +17,11 @@ nav_order: 3
   
 <h4>Refereed journal articles</h4>
 {% bibliography %}
+<hr>
 
 <h4 style="margin-top:70px">Ongoing work</h4>
 {% bibliography --file ongoing %}
+<hr>
 
 <h4 style="margin-top:70px">Theses</h4>
 {% bibliography --file theses %}
