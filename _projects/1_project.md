@@ -1,7 +1,7 @@
 ---
 layout: page
 title: DFG 456849348
-description: Modeling and mathematical description of concrete physical applications in the context of kinetic theory using the Bathnagar-Gross-Krook equation <br> 2021 -- 2026
+description: Modeling and mathematical description of concrete physical applications in the context of kinetic theory using the Bathnagar-Gross-Krook equation <p>2021 --- 2026</p>
 <!--- img: assets/img/12.jpg --->
 importance: 1
 category: DFG
