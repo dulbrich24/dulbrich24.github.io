@@ -15,12 +15,12 @@ nav_order: 3
 
 <div class="publications">
 
-<h3>Refereed journal articles</h3>
+<h5>Refereed journal articles</h5>
 {% bibliography %}
 
-<h3>In preparation</h3>
+<h5>In preparation</h5>
 {% bibliography --file ongoing %}
 
-<h3>Theses</h3>
+<h5>Theses</h5>
 {% bibliography --file theses %}
 </div>
