@@ -18,9 +18,11 @@ nav_order: 3
 <h5>Refereed journal articles</h5>
 {% bibliography %}
 
+<hr>
 <h5>In preparation</h5>
 {% bibliography --file ongoing %}
 
+<hr>
 <h5>Theses</h5>
 {% bibliography --file theses %}
 </div>
