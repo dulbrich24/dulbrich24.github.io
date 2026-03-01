@@ -14,17 +14,14 @@ nav_order: 3
 <!--- {% include bib_search.liquid %}  --->
 
 <div class="publications">
-<h6>Refereed journal articles</h6>
-<span style="margin-bottom:100px">
-  {% bibliography %}
-</span>
+  
+<h5>Refereed journal articles</h5>
+{% bibliography %}
 
-
-<span style="margin-bottom:100px">
-<h6>Ongoing work</h6>
+<h5 style="margin-top:50px">Ongoing work</h5>
 {% bibliography --file ongoing %}
-</span>
 
-<h6>Theses</h6>
+<h5 style="margin-top:50px">Theses</h5>
 {% bibliography --file theses %}
+
 </div>
