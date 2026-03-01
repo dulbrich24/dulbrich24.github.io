@@ -415,9 +415,9 @@ ninja.data = [{
             },},{id: "news-i-am-loooking-for-a-position-in-mathematical-research-or-teaching-at-a-university",
           title: 'I am loooking for a position in mathematical research or teaching at a...',
           description: "",
-          section: "News",},{id: "projects-project-1",
-          title: 'project 1',
-          description: "with background image",
+          section: "News",},{id: "projects-dfg-456849348",
+          title: 'DFG 456849348',
+          description: "2021 to 2026",
           section: "Projects",handler: () => {
               window.location.href = "/projects/1_project/";
             },},{id: "projects-project-2",
