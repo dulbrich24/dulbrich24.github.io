@@ -14,9 +14,9 @@ nav_order: 3
 <!--- {% include bib_search.liquid %}  --->
 
 <div class="publications">
-<span style="margin-bottom:100px">
 <h6>Refereed journal articles</h6>
-{% bibliography %}
+<span style="margin-bottom:100px">
+  {% bibliography %}
 </span>
 
 
