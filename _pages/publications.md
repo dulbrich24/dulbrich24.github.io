@@ -15,15 +15,15 @@ nav_order: 3
 
 <div class="publications">
   
-<h4>Refereed journal articles</h4>
+<h4><b>Refereed journal articles</b></h4>
 {% bibliography %}
-<hr>
 
-<h4 style="margin-top:70px">Ongoing work</h4>
+
+<h4 style="margin-top:100px"><b>Ongoing work</b></h4>
 {% bibliography --file ongoing %}
-<hr>
 
-<h4 style="margin-top:70px">Theses</h4>
+
+<h4 style="margin-top:100px"><b>Theses</b></h4>
 {% bibliography --file theses %}
 
 </div>
