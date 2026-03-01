@@ -1,11 +1,11 @@
 ---
 layout: page
-title: Projects
+title: Projects participation
 permalink: /projects/
-description: A growing collection of your cool projects.
+<!--- description: A growing collection of your cool projects. --->
 nav: false
 nav_order: 3
-display_categories: [work, fun]
+display_categories: [DFG]
 horizontal: false
 ---
 
