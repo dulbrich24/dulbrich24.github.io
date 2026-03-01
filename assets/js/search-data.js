@@ -417,7 +417,7 @@ ninja.data = [{
           description: "",
           section: "News",},{id: "projects-dfg-456849348",
           title: 'DFG 456849348',
-          description: "2021 to 2026",
+          description: "Modeling and mathematical description of concrete physical applications in the context of kinetic theory using the Bathnagar-Gross-Krook equation",
           section: "Projects",handler: () => {
               window.location.href = "/projects/1_project/";
             },},{id: "projects-project-2",
