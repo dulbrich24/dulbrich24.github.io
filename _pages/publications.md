@@ -19,7 +19,7 @@ nav_order: 3
 {% bibliography %}
 
 <hr>
-<h5>In preparation</h5>
+<h5>Ongoing work</h5>
 {% bibliography --file ongoing %}
 
 <hr>
